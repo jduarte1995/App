@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jess.taulaperiodica.MainActivity"
+    android:weightSum="1">
+
+    <TableRow android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonH"
+            android:background="@drawable/h" />
+
+        <ImageButton
+        android:id="@+id/imageButtonLlegenda"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:background="@drawable/llegenda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvContador"
+            android:visibility="invisible" />
+    </TableRow>
+
+    <TableRow android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/imageButtonLi"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/li" />
+        <ImageButton
+            android:id="@+id/imageButtonBe"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/be" />
+
+        <Button
+            android:text="JOC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnJoc" />
+    </TableRow>
+    <TableRow android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/imageButtonNa"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/na" />
+        <ImageButton
+            android:id="@+id/imageButtonMg"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/mg" />
+
+        <TextView
+            android:text="Escriu el símbol Químic de\n l'element:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvInfo"
+            android:visibility="invisible" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonK"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/k" />
+        <ImageButton
+        android:id="@+id/imageButtonCa"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:background="@drawable/ca" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtSimbol"
+            android:visibility="invisible" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonRb"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/rb" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSr"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/sr" />
+
+        <Button
+            android:text="Comprova"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnComprova"
+            android:visibility="invisible"
+            android:src="@drawable/tic"
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/imageButtonCs"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/cs" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBa"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/ba" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMissatge" />
+
+
+    </TableRow>
+
+    <TableRow android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonFr"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@drawable/fr" />
+        <ImageButton
+            android:id="@+id/imageButtonRa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ra" />
+
+        <Button
+            android:text="Mes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMes"
+            android:visibility="invisible"
+            android:textAlignment="center" />
+
+    </TableRow>
+</TableLayout>
+
+
+

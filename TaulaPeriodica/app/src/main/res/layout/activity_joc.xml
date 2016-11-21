@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_joc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jess.taulaperiodica.joc">
+
+    <TableRow android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonH"
+            android:src="@drawable/h_sin" />
+
+        <ImageButton
+            android:id="@+id/imageButtonLlegenda"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/llegenda" />
+    </TableRow>
+
+    <TableRow android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/imageButtonLi"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/li_sin" />
+        <ImageButton
+            android:id="@+id/imageButtonBe"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/be_sin" />
+    </TableRow>
+    <TableRow android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/imageButtonNa"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/na_sin" />
+        <ImageButton
+            android:id="@+id/imageButtonMg"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/mg_sin" />
+    </TableRow>-
+    <TableRow android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/imageButtonK"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/k_sin" />
+        <ImageButton
+            android:id="@+id/imageButtonCa"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/ca_sin" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/imageButtonRb"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/rb_sin" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSr"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/sr_sin" />
+    </TableRow>
+
+    <TableRow android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/imageButtonCs"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/cs_sin" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBa"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/ba_sin" />
+
+    </TableRow>
+    <TableRow android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/imageButtonFr"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/fr_sin" />
+        <ImageButton
+            android:id="@+id/imageButtonRa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ra_sin" />
+    </TableRow>
+
+
+    </TableLayout>
